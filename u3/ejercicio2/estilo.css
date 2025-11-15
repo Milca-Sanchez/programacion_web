@@ -1,0 +1,161 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin:auto;
+  /*border: 2px red solid;*/
+}
+
+.margen {
+  padding: 15px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.contenedor_padre {
+  border: 10px orange solid;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.contenedor1 {
+  width: 550px;
+  border: 3px blue solid;
+  display:inline-block; /*es para que estén los dos en la misma línea*/
+  vertical-align: top; /*al hijo más chiquito, pero es recomendable para los dos, es para que INICIEN EN LA PARTE DE ARRIBA*/
+}
+
+.contenedor2 {
+  width: 550px;
+  border: 3px green solid;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.contenedor_menu {
+  width: 1200px;
+  background-color: #ececec;
+  padding: 10px;
+  border-radius: 15px;
+  margin: auto;
+  text-align: center; /* En el contendor más grande se pone el centro*/
+  
+}
+
+.contenedor_menu a {
+  border: 2px black solid;
+  padding: 10px 30px;
+  text-decoration: none; 
+  display: inline-block;/* debe tener sí o sí un  display:inline-block LAS REFERENCIAS "a"*/
+  vertical-align: top;
+  margin-right: 10px; /* se separan los elemntos */
+
+}
+
+.contenedor_menu a :last-child {
+  /* ES PARA EL ÚLTIMO ELEMENTO */  margin-right: 0px;
+}
+
+
+.contenedor_menu a:hover {
+  background-color: #800000;
+  color:white
+}
+
+.contenedor_fondo {
+  background-image: url("images/fondo_hexagonos.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border: 1px black solid; 
+}
+
+.contenedor_info_hackathon{
+  width: 1200px;
+  margin: auto;
+  border: 1px red solid;
+}
+
+.info_evento {
+  width: 550px;
+  border: 1px blue solid;
+  display:inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 30px;
+}
+
+.info_evento h2 {
+  font-size: 32px;
+  line-height: 30px;
+}
+
+.dorado {
+  color: #cc9900;
+}
+.foto_evento {
+  width: 550px;
+  border: 1px blue solid;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.contenedor_iconos img:first-child {
+  margin-right: 30px;
+}
+
+.contenedor_bases {
+  width: 1200px;
+  border: 1px red solid;
+  margin: auto;
+}
+
+.foto_bases {
+  width: 680px;
+  border: 1px green solid;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.info_bases {
+  width: 500px;
+  border: 1px orange solid;
+  display:inline-block;
+  vertical-align: middle;
+  padding: 20px;
+
+}
+
+.info_bases h2 {
+  font-size: 40px;
+}
+
+.linea_azul {
+  border: 0px;
+  width: 70px;
+  height: 10px;
+  background-color: #a9cefa;  
+}
+
+.listas {
+  margin-left: 30px;
+  list-style: url(images/vineta1.svg);
+}
+
+.listas li {
+  padding: 10px;
+  border-bottom: 1px #333 dotted;
+}

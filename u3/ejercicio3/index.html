@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio3 javascript</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <h1 class="ancho margen centrar">FORMULARIO - CONTACTANOS</h1>
+    <div class="contenedor ancho">
+        <div class="contenedor_nombres">
+            <p>Nombre:</p>
+            <p>Email:</p>
+            <p>Telefono:</p>
+            <p>Fecha:</p>
+            <p>Comentarios:</p>
+        </div>
+        <div class="contenedor_elementos">
+        <form action="loquesea.html" method="get" id="formulariocomentarios">
+            <input type="text" name="nombre" id="nombre" class="campos">
+            <br>
+            <input type="email" name="email" id="email" class="campos">
+            <br>
+            <input type="tel" name=telefono" pattern="[0-9]{10}" placeholder="Ejemplo:9999999999" id="telefono" class="campos">
+            <br>
+            <input type="date" name="fecha" id="fecha" class="campos">
+            <br>
+            <textarea name="comentarios" id="comentarios" class="campos"></textarea>
+            <br>
+            <!--<input type="submit" value="Enviar" id="enviar"> -->
+            <button id="btn_validar" class="boton" type="submit">Enviar comentarios</button> 
+        </form>
+        </div>
+    </div>
+
+    <!--funciones de Javascript-->
+    <script type="text/javascript">
+    //validacion formulario
+    $("#btn_validar").click(
+        function () {
+            //if ($("#nombre").val().trim() =="" ){-- VALIDA QUE NO ESTE VACIO, NO EL CONTENIDO.
+            if ($("#nombre").val().trim() =="" ){
+                alert("Escribe tu nombre");
+                $("#nombre").focus();
+                return 0;
+            }
+
+        //validacion email
+        //! es para que salga el altert cuando no es un correo
+        //verifica que el tipo sea correcto .checkVisibility
+            if (!$("#email")[0].checkVisibility()){
+                alert("Escribe correctamente tu email");
+                $("#email").focus();
+                return 0;
+            }
+
+         //validacion telefono
+            if ($("#telefono").val().trim() =="" ){
+                alert("Escribe tu telefono");
+                $("#telefono").focus();
+                return 0;
+            }
+
+         //validacion  fecha
+            if ($("#fecha").val().trim() =="" ){
+                alert("Escribe tu fecha");
+                $("#fecha").focus();
+                return 0;
+            }
+
+        //validacion comentarios
+            if ($("#comentarios").val().trim() =="" ){
+                alert("Escribe tu comentarios");
+                $("#comentarios").focus();
+                return 0;
+            }
+        //si todo esta bien, enviar formluario
+        //id formulario
+         document.getElementById("formulariocomentarios").submit();
+        }
+    );     
+
+    </script>  
+
+</body>
+</html>
