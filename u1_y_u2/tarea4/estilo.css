@@ -1,0 +1,155 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 20px;
+  color:#333;
+}
+
+.ancho {
+  max-width: 1100px;
+  margin:auto;
+  /*border: 2px red solid;*/
+}
+
+.margen {
+  padding: 20px;
+}
+
+
+.rectangulo{
+  background-color: #cc9900;
+  height: 20px; /*altura*/
+}
+
+.centrado {
+  text-align:center;
+}
+
+
+.linea_naranja {
+  background-color: #cc9900;
+  width: 75px;
+  height: 6px; /*altura*/
+}
+
+
+.h1 {
+    margin-bottom: 20px;
+}
+
+.texto {
+  text-align: left;
+  
+}
+
+.logotec { 
+  width: 180px;
+  padding-top: 20px;
+}
+
+.botonrojo {
+  text-decoration: none;
+  background-color: #800000;
+  color:white;
+  display: inline-block;
+  padding: 10px 50px;
+  text-align:center;
+  margin: 0 15px 5px;
+  border-radius: 40px;
+}
+
+.fotocampus {
+  max-width: 1100px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.bienvenida {
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  padding: 50px;
+  }
+
+.cajarojo {
+  text-align:center;
+  border: 2px solid#800000;
+  border-radius: 20px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 30px 30px 15px; 
+}
+
+.linea_roja {
+  background-color: #800000;
+  width: 78px;
+  height: 8px; /*altura*/
+  text-align: center;
+  margin: 20px auto;
+}
+
+.fotorojo {
+  margin-top: 10px;
+  max-width:240px;
+  border-radius: 20px;
+  height: 200px;
+  margin:auto;
+  margin-bottom: 10px;
+}
+
+.negrita {
+    font-weight: bold;
+    color: black;
+}
+
+.amarillo{
+    color:#cc9900 ;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.rojo {
+  color:#800000;
+  font-weight: bold;
+}
+
+.lista2 {
+text-align: left;
+margin-left: 40px;
+}
+
+
+li::marker{
+  font-size: 25px;
+}
+.semestre {
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center; 
+}
+
+.engrane {
+  width: 24px;
+  margin-right: 8px; 
+      
+}
+
+.datos {
+  text-decoration: none;
+  background-color: #800000;
+  color:white;
+  padding: 25px;
+  text-align:center;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+hr {
+  border: none;
+}

@@ -1,0 +1,261 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family:helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin:auto;
+  /*border: 2px red solid;*/
+}
+
+.margen {
+  padding: 15px;
+}
+
+.margen_pagina {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 15px;
+
+}
+
+.centrar {
+    text-align: center;
+}
+
+.inicio {
+  background-color: white;
+  padding: 10px 10px;
+  border-bottom: 2px gray solid;
+  display: block; 
+}
+
+.logo_cabecera {
+display: inline-block;
+vertical-align: top;
+}
+
+.enlace_inicio {
+    text-decoration: none;
+    font-weight:bold;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btn_descargar {
+    color:blue solid;
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: 1px blue solid;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.enlace_inicio a{
+    text-decoration: none;
+    color: black;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.logo_firefox {
+    width: 110px;
+    padding-top: 20px;
+}
+
+.contenedor1 {
+    width: 1200px;
+}
+
+.uno {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+}
+
+.btn2{
+  background-color: blue;
+  padding:  15px 35px;
+  text-decoration: none;
+  color: white;
+}
+
+.aviso {
+  font-size: 12px;
+  line-height: 24px;
+  color: gray;
+  padding-top: 10px;
+  margin-left: 15px;
+}
+
+.ft_computadora{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.ft_computadora img {
+  width: 100%; 
+}
+
+.contenedor2 {
+    background-color: azure;
+    width: 1200px;
+}
+
+.dinosaurio {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dinosaurio img {
+    width: 100%;
+}
+
+.contenedor2 h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+.dos {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    text-align: center;
+}
+
+.dos h1 {
+font-size: 50px;
+line-height: 50px;
+text-align: center;
+}
+
+.dos p {
+font-size: 15px;
+line-height: 20px;
+text-align: center; 
+}
+
+.tres {
+    width: 1200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.impacto {
+    width:600px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subtitulos {
+    font-size: 20px;
+}
+
+.listas a {
+    font-weight:bold;
+    color:blue;
+}
+
+.innovaciones {
+    width:500px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.linea {
+    width: 1px;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    height: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cuatro {
+    width: 1200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.extensiones {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.empleos {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.cuatro h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.ayuda {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.cuatro img {
+    width: 122px;
+}
+
+.imagenfinal {
+    padding: 50px;
+}
+
+.imagennn {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagenn img {
+   width: 250px; 
+}
+
+.cinco {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btn_final{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 15px;
+    width: 450px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.form{
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    border-color    : gray;
+}

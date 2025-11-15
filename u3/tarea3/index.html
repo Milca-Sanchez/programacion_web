@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea3</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <div class="ancho rectangulo"></div>
+    <div class="ancho centrar contenedor_azul">
+        <br>
+        <img src="imagnees/logo_cabecera.png" alt="">
+    </div>
+    <div class="ancho centrar contenedor_azulito ">
+        <br>
+        <h1 class="letra_azul">DÉJANOS CONOCERTE</h1>
+    <div class="ancho centrar linea_roja"></div>
+    </div>
+    <br>
+    <div class="ancho contenedor_formulario">
+            <h2 class="centrar letra_naranja">¡ Cómpartenos tu información !</h2>
+        
+            <h3 class="centrar negrita">Dejanos tus datos personales y nosotros nos comunicaremos contigo lo más pronto posible.</h3>
+        <br>
+    <div class="contenedor_elementos">
+        <div class="contenedor_izquierdo">
+            <form action="loquesea.html" method="get" id="formulario" name="formulario">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo*" class="campos">
+                <br>
+                <input type="email" name="email" id="email"  placeholder="Correo Electronico*" class="campos">
+                <br>
+                <input type="tel" name="telefono" pattern="[0-9]{10}" placeholder="Celular*" id="telefono" class="campos">
+                <br>
+                <input type="text" name="ciudad" id="ciudad"    placeholder="Ciudad" class="campos">
+                <br>
+                <input type="text" name="localidad" id="localidad" placeholder="Localidad" class="campos">
+                <br>
+        </div>
+        <div class="contenedor_derecho">
+                <input type="text" name="estado" id="estado" placeholder="Estado" class="campos">
+                <br>
+                <input type="text" name="colonia" id="colonia" placeholder="Colonia" class="campos">
+                <br>
+            <select name="lugar" id="lugar" class="campos">
+                        <option value="">Elige tu área de interes*</option> 
+                        <option value="1">Cajas</option>
+                        <option value="2">Servicios</option>
+                        <option value="3">Asesoramiento Financiero</option>
+                        <option value="4">Gestoría y Cobranza</option>
+                        <option value="5">Crédito</option>
+                        <option value="6">Jurídico</option>
+                        <option value="7">Archivo</option>
+                        <option value="8">Mercadotecnia</option>
+                        <option value="9">Diligencias</option>
+                        <option value="10">Compras</option>
+                        <option value="11">Intendencia</option>
+                        <option value="12">Auditoría</option>
+                        <option value="13">Capital Humano</option>
+                        <option value="14">Mantenimiento</option>
+                        <option value="15">Sistemas</option>
+                        <option value="16">Contabilidad</option>
+                        <option value="17">Administración</option>
+            </select>
+        <div class="regimen">
+            <input type="radio" value="M" name="horario" class="persona"><label for=""">Persona Física</label>
+            <input type="radio" value="V" name="horario" class="persona"><label for=""">Persona Moral</label>
+            </div>
+        </div>
+        <br>
+        <br>
+             <button id="btn_validar" class="boton" type="button">Enviar</button> 
+            </form>
+        <br>
+        <br>
+    <br>
+</div>
+</div>
+<br>
+    <div class="datos ancho">
+        <p> Milca Maribel Sánchez Aguilar</p>
+        <p>Programación Web</p>
+        <p>7SA</p>
+    </div>
+
+        <script type="text/javascript">
+                $("#btn_validar").click(function () {
+
+                if ($("#nombre").val().trim()=="") {
+                    alert("Escribe tu nombre");
+                    $("#nombre").focus();
+                    return 0;
+                }
+            
+                if (!$("#email")[0].checkValidity()) {
+                    alert("Escribe corectamente tu email");
+                    $("#email").focus();
+                    return 0;  
+                    }
+
+                if ($("#email").val().trim()=="") {
+                    alert("Escribe tu email");
+                    $("#email").focus();
+                    return 0;  
+                    }
+
+                if (!$("#telefono")[0].checkValidity()) {
+                    alert("Escribe corectamente un telefono");
+                    $("#telefono").focus();
+                    return 0;  
+                    }    
+
+                if ($("#telefono").val().trim()=="") {
+                    alert("Escribe tu telefono");
+                    $("#telefono").focus();
+                    return 0;  
+                    }
+                
+                if ($("#lugar").val() == "") {
+                    alert("Selecciona tu área de interés");
+                    $("#lugar").focus();
+                    return 0;
+                    }
+                
+                document.getElementById("formulario").submit();
+                 
+                });           
+        </script>
+
+</body>
+</html>

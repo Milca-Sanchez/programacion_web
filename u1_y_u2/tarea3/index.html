@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 3</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<!-- Sección 1-->
+
+<div class="contenedor1 margen ancho">
+    <h2 class="titulo">Las etiquetas y los contenidos </h2>
+
+    <p class="parrafo"> Cada elemento HTML está formado por varias partes constitutivas. 
+        <br> <br>
+
+     La primera parte es la etiqueta de apertura. Esta etiqueta empieza con el carácter <span class="fondoazul"></span> y se sigue inmediatamente después por el nombre del elemento. Termina con el carácter <span class="fondoazul">></span>. El elemento que permite insertar un párrafo de texto se llama p, la sintaxis de su etiqueta de apertura es la siguiente: <span class="fondoazul">&lt;p&gt;</span>.
+
+    <br> <br>
+    La segunda parte afecta a los contenidos textuales. Es decir, los elementos HTML que contienen texto, como los títulos, párrafos, citas, etc. El texto se escribe de manera normal, sin ninguna etiqueta específica.
+
+    <br><br>
+
+     La mayor parte de los elementos HTML tienen una etiqueta de cierre. La sintaxis retoma el principio de la etiqueta de apertura, pero además con el carácter <span class="fondoazul">/</span>, que precede al nombre del elemento. Este carácter indica el final del elemento. Si retomamos nuestro ejemplo de párrafo, a continuación se muestra la etiqueta de cierre: <span class="fondoazul">&lt;/p&gt;</span>.
+
+    <br><br>
+    Este es un ejemplo completo para el elemento HTML, que inserta un párrafo:
+   
+    <pre><code>
+  <span class="colorazul">&lt;p&gt;</span> El texto de mi párrafo. <span class="colorazul">&lt;/p&gt;
+</code></pre>
+<br>
+
+        
+    </p>
+        Es importante observar que algunos elementos HTML sin contenido textual o sin elementos anidados lógicamente no tienen etiqueta de cierre. Tomemos como ejemplo el elemento <span class="fondoazul">&lt;hr&gt;</span>, que permite insertar una línea horizontal de separación. No hay contenido textual; por lo tanto, no tenemos etiqueta de cierre. Sucede lo mismo con el elemento <span class="fondoazul">&lt;img&gt;</span>, que permite insertar una imagen. En este caso, la etiqueta de apertura contiene un autocierre. 
+    </p>
+</div>
+
+<!-- Sección 2-->
+<div class="contenedor1 margen ancho">
+    <h2 class="titulo"> El rol del CSS  </h2>
+    <p class="parrafo"> Recordemos que las <span class="naranja">CSS, Cascading Style Sheets</span>, permiten formatear el contenido de los elementos HTML y también se ocupan de la paginación de los sitios web. Por lo tanto, con las CSS tenemos dos objetivos bien definidos:</p>
+    <!-- listas-->
+   <ul class="lista1">
+    <li>El formato que afecta a los textos, por ejemplo, con la aplicación de un color, el cambio de mayúsculas/minúsculas de los caracteres, el resaltado de los párrafos de texto con el formato del interlineado o la indentación de primera línea, etc.</li>
+    <li>La estructura de la página, que afecta a la disposición de los bloques de contenido HTML de la página, con una barra de navegación, un encabezado, un pie de página, una zona de visualización de contenidos, etc.</li>
+    <p>Las CSS permiten modificar dinámicamente la estructura de la página según el medio de difusión. Es decir, la estructura de la página va a ser diferente dependiendo de si consulta el sitio web en la pantalla de un ordenador, de una tableta o de un smartphone.</p> 
+   </ul>
+<br> 
+   <p class="parrafos"> En la actualidad y desde hace ya tiempo, es necesario separar las CSS de la estructura del HTML. Por lo tanto, tenemos que ver en este capítulo dónde situar las reglas CSS que forman una hoja de estilo. 
+   </p>
+</div>
+
+<!-- Sección 3-->
+  <div class="contenedor1 margen ancho">
+    <h2> La terminología de las CSS </h2>
+    <br>
+ <p class="parrafos"> 
+        Hablamos de CSS, estilo, regla, declaración, propiedad y valor. Es conveniente definir esta terminología para utilizar los términos correctos. 
+        <br><br>
+        <span class="naranja">CSS</span>, acrónimo de <span class="naranja">Cascading Style Sheets</span class="naranja">, es una tecnología desarrollada por el W3C que permite formatear y estructurar las páginas de los sitios web estructurados en HTML. 
+        <br><br>
+        Un <span class="negrita">estilo </span>es un formato o un elemento de estructuración de página que usa CSS, que se guarda y que, a continuación, se puede aplicar a uno o varios elementos HTML. 
+        <br><br>
+        Una <span class="negrita">regla</span> CSS permite la creación de un estilo. Esta regla se crea con una sintaxis específica que utiliza un <span class="negrita">selector</span> y una <span class="negrita">declaración</span>. Esta última está formada por <span class="negrita">propiedades</span> y <span class="negrita">valores</span>.
+    </p>
+
+ </div >
+
+ <!-- Sección 4-->
+<div class="contenedor1 margen ancho">
+    <h2 class="titulo2">Las	reglas	de	nomenclatura</h2>
+    <br>
+<p class="parrafo">
+    El nombre de los selectores debe respetar algunas reglas: </p>
+    <!-- listas-->
+     <ul class="lista1">
+        <li>No debe empezar por una cifra.</li>
+        <li>No debe contener espacios, caracteres acentuados ni caracteres especiales, como: <span class="fondoazul">+</span>, <span class="fondoazul">*</span>, <span class="fondoazul">/</span>, etc.</li>
+        <li>Puede contener los caracteres guión <span class="fondoazul">-</span> y guión bajo (o underscore) <span class="fondoazul">_</span> en cualquier posición dentro del nombre. </li>
+        <li>Es sensible a la diferencia entre mayúsculas y minúsculas. Si el nombre del selector está en la regla, .<span class="fondoazul">Mi-Selector</span class="fondoazul">, su aplicación en el código HTML debe ser idéntica: <span class="fondoazul">class="Mi-Selector"</span>, y no <span class="fondoazul">class="mi Selector"</span> o <span class="fondoazul">class="Mi-selector"</span>. </li>
+     </ul> 
+  
+</div>
+
+<!-- Sección 5-->
+
+<div class="contenedor1 margen ancho">
+    <h4 class="titulo3">Que es HTML:</h4>
+    <br>
+<p class="parrafo">
+    <span class="verde">El HTML (Hyper Text Markup Language)</span> es el lenguaje con el que se escriben las páginas web. Es un lenguaje de hipertexto, es decir, un lenguaje que permite escribir texto de forma estructurada, y que está compuesto por etiquetas, que marcan el inicio y el fin de cada elemento del documento. </p>
+
+     <!-- listas-->
+    <ul class="lista1">
+        <li class="subrayado">Un documento hipertexto no sólo se compone de texto, puede contener imágenes, sonido, vídeos, etc.,</li>
+        <li class="subrayado">por lo que el resultado puede considerarse como un documento multimedia.</li>
+        <li>Los documentos HTML deben tener la extensión html o htm, para que puedan ser visualizados en los </li>
+        <li>navegadores o browser.</li>
+        <li>Organización de una web </li>
+        <li>Para hacer una buena presentación Web lo ideal es crearnos un boceto inicial de la estructura. Si </li>
+        <li>hacemos esto, no solo estamos procurando una presentación agradable y facilitando la tarea de navegar </li>
+        <li>sino que también nos facilitamos el mantenimiento de futuras revisiones y modificaciones.</li>
+    </ul>
+</div>
+
+<!-- Sección 6-->
+<div class="contenedor1 margen ancho">
+    <h4 class="titulo3">Los navegadores:</h4>
+    <br>
+    <p> 
+        Como hemos dicho, el navegador instalado en el ordenador del usuario es el que interpreta el código HTML de la página que visita por lo que a veces puede ocurrir que dos usuarios visualicen la misma página de forma distinta por que tienen instalados navegadores distintos o incluso versiones distintas del mismo navegador. 
+        <br> <br>
+        Los navegadores tienen que ser compatibles con la última versión HTML para poder interpretar el mayor número posible de etiquetas. 
+    </p>
+</div>
+
+<!-- Sección 7-->
+<div class="contenedor1 margen ancho">
+    <h4 class="titulo3">Editores web:</h4>
+    <br>
+    <p> 
+        Un editor es un programa que nos permiten redactar documentos. Hoy en día existen un gran número de  
+        <br> <br>
+        editores que permiten crear páginas web sin la necesidad de escribir ni una sola línea de código HTML.  
+        <br><br>
+        Estos editores disponen de un entorno visual y generan automáticamente el código de las páginas.
+    </p>
+    <br>
+        <p class="parrafo negrita">
+            Algunos de estos editores visuales con los que podrás crear tus páginas web son:
+        </p> 
+        <br>
+    <!-- listas-->
+     <ol class="lista2">
+        <li>Visual Code</li>
+        <li>Notepad ++</li>
+        <li>Brackets</li>
+        <li>Atom</li>
+        <li>Otros</li>
+     </ol> 
+</div>
+
+</body>
+</html>

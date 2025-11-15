@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 class="ancho margen">TABLAS</h1>
+    <br>
+    <div class="contenedor_tabla1">
+        <table class="tabla1">
+            <tr class="fila1">
+                <td>Uno</td>
+                <td>Dos</td>
+                <td>Tres</td>
+            </tr>
+            <tr class="fila2">
+                <td>Cuatro</td>
+                <td class="gris">Cinco</td>
+                <td>Seis</td>
+            </tr>
+        </table>
+    <br><br><br>
+    <table class="tabla2">
+        <caption class="titulotabla"> CURSOS DE VERANO</caption>
+
+        <tr>
+            <!-- <td>&nbsp;</td> -->
+            <th>cursos</th>
+            <th>horarios</th>
+            <th>costos</th>    
+        </tr>
+            <td>Curso de HTTML y CSS</td>
+            <td>9:00 - 13:00 hrs</td>
+            <td>$350.00</td>
+        <tr>
+            <td>Curso PHP Básico</td>
+            <td>11:00-15:00 hrs</td>
+            <td>$350.00</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="fondorojo">Curso de MYSQL</td>
+        <!-- <td>13:00 - 18:00h hrs</td>
+             <td>$300.00</td>  -->
+        </tr>
+        <tr class="fondogris">
+            <td rowspan="2">Curso Laravel</td>
+            <td>18:00 - 20hrs</td>
+            <td>$800.00</td>
+        </tr>
+            <tr class="fondogris">
+                <!-- <td >Curso Laravel</td>  -->
+            <td>18:00 - 20hrs</td>
+            <td>$800.00</td>
+        </tr>
+
+    </table>
+    </div>
+</body>
+</html>

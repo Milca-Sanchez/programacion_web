@@ -1,0 +1,199 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin:auto;
+  /*border: 2px red solid;*/
+}
+
+.margen {
+  padding: 10px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.negrita {
+    font-weight: bold;
+}
+.cuadro_azulfuerte {
+   background-color:#2463a9 ;
+    margin:Auto;
+    border-bottom:#1cace7 12px solid; 
+}
+
+.btn_cuadro_azulfuerte{
+    color: white;
+    background-color:#2463a9 ;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin:Auto;
+}
+
+
+.contenedor_telcel {
+    background-image: url(imagenes/fondo_slide.jpg);
+    max-width: 1200px;
+    height: 510px;
+}
+
+.letra_azul {
+    color: #1cace7;
+}
+
+.texto{
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0px 40px;
+    margin-top: 20px;
+    font-size: 28.5px;
+    
+}
+
+.btn_cuadro_naranja {
+  color: white;
+  background-color:#ff6500;
+  text-decoration: none;
+  padding: 8px 30px;
+  font-size: 15px;
+  margin: auto;
+  display: inline-block;
+  margin-top: 30px;
+
+}
+
+.tabla {
+  margin: auto;
+  width: 1180px;
+  border: 4.5px #1cace7 solid;
+  color: #003B70; 
+  border-collapse: collapse;
+  border-spacing: 2px 2px;
+}
+
+.fila1 {
+  background-color: #1cace7;
+  color: white;
+  text-align: center;
+  border: 3px solid #e9ecef;
+  padding: 18px 24px;
+}
+
+.fila2 {
+  background-color: #e9ecef;
+}
+
+.fila3 {
+  background-color: white;
+}
+
+.letragrande {
+      font-size: 18px;
+}
+
+.letrotota {
+      font-size: 25px;
+}
+
+.banderas {
+  height: 32px;
+  vertical-align: -18px;
+  margin-right: -7px;
+  
+}
+
+.iconos {
+  height: 32px;
+  margin-right: -7px;
+  
+}
+
+.paquete {
+  width: 100px;
+}
+
+.en {
+   width: 300px;
+}
+
+.mega {
+  width: 100px;
+}
+
+.min {
+  width: 160px;
+}
+
+.mensaje {
+  width: 180px;;
+}
+.redes {
+  width: 200px;
+}
+.vigencia {
+  width: 150px;
+}
+
+.clave 
+{
+  width: 150px;
+}
+
+
+td, th {
+  padding: 10px; 
+  border-right: 3px solid #e3dede;      
+  border-bottom: 3px solid #e3dede;     
+  border-left: 3px solid #e3dede;     
+  border-top: 3px solid #e3dede;      
+
+}
+
+.yt{  
+  border-radius: 10px;
+  width: 1075px;
+  height: 500px;
+}
+
+.btn_compra {
+  color: white;
+  background-color:#ff6500;
+  text-decoration: none;
+  padding: 6px 24px;
+  font-size: 15px;
+  margin: auto;
+  display: inline-block;
+  margin-top: 30px;
+
+}
+
+.contenedorbanners {
+    background-color: #ececec;
+}
+
+.final_telcel {
+  background-color: #2463AA;
+  width: 1350px;
+  margin: auto; 
+  height:130px;
+  margin-top: 10px;
+
+}
+
+.telcel {
+  margin-left: 70px; 
+}

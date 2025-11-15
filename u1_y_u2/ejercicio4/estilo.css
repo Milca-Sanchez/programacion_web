@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+}
+
+.ancho {
+    max-width: 1200px;
+    margin:auto;
+    border: 2px red solid;
+}
+
+.margen {
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn_oferta {
+  text-decoration: none;
+  color:white;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: #800000;
+}
+
+.btn_registro {
+  text-decoration: none;
+  border:2px #800000 solid;
+  color: #800000;
+  background-color: white;
+  padding: 10px 50px;
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius:10px 0 10px 0;
+}
+
+
+
+/* - EL BOTON SIEMPRE TIENE QUE TENER display:inline-block;
+    - que esté abajo (br), si son seguidos*/

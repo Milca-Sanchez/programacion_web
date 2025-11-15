@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+}
+
+.ancho {
+    border: 1px red solid;
+}
+
+.margen {
+    padding: 15px;
+}
+
+.tabla1 {
+    border: 3px #676767 solid;
+    width: 500px;
+    margin:auto;
+    padding: 5px;
+    border-spacing: 10px;
+    border-radius: 10px;
+
+}
+
+.tabla1 tr {
+    border: 1px green solid;
+    background-color: rgb(176, 166, 166);
+    padding: 10px;
+}
+
+.tabla1 td { 
+    padding: 10px;
+    background-color: #ececec;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.fila1 {
+    border: 1px red solid;
+}
+
+.columna1 {
+    border: 2px blue solid;
+}
+
+.fila2 .gris{
+    background-color: rgb(199, 200, 218);
+    color:#d32222;
+}
+
+.tabla2 {
+    border: 3px blue dotted; /* dashed (rayas), dotted (puntos)*/
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-spacing: 10px;
+    padding-top: 20px;
+}
+
+.tabla2 td {
+    border: 1px rgb(252, 12, 160) solid;
+    padding: 10px;
+    text-align: center;
+    border-radius:10px;
+}
+
+.tabla2 th {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fondogris {
+    background-color: rgb(220, 199, 199);
+}
+
+.fondorojo {
+    background-color: red ;
+    color:white;
+}
+
+.titulotabla {
+    width: 500px;
+    margin:auto;
+    margin-bottom: -20px;
+    border-radius: 20px;
+    background-color: rgb(206, 14, 14);
+    color: white;
+    padding:10px;
+}

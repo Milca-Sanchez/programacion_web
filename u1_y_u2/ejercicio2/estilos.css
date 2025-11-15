@@ -1,0 +1,51 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Para que el padding no afecte al width*/
+  } /*Reset de CSS, Afecta a todas las etiquetas */
+
+body{
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px;/* tamaño del interlineado*/
+    color: #333333;/* color del texto*/    
+}
+
+/* BORDE PARA SABER HASTA DONDE LLEGA MI TEXTO*/
+.contenedor_conversaciones{
+    border: 1px solid brown;
+    width: 600px;
+ /* height: ; --- no es recomendable usarlo en este caso pq se sale del borde*/  
+    /*padding: 30px; /*hacia adentro (TODO)*/
+    /*margin: 50px; /*hacia afuera (TODO)*/
+    /*padding-bottom: 30px /*hacia abajo*/
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+    /*box-sizing: border-box; conserva sus anchos*/
+    margin-bottom: 50px;
+}
+
+.contenedor_canales {
+    border: 1px solid blue;
+    width: 600px;
+   /* padding: 30px; */
+   /* margin-right: 50px ;*/
+}
+
+.subtitulos{
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: tahoma;
+    color: #0c3f72;
+    text-transform: uppercase; 
+}
+.titulos{
+font-size: 28px;
+line-height: 34px;
+padding-bottom: 24px;
+
+}
+.margen {
+    padding: 10px;
+}

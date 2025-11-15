@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio8</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 class="ancho margen centrar">FORMULARIO</h1>
+    <form action="" method="" enctype="" class="formulario1 ancho margen">
+<!-- post -debajo, get guguk así lo usa, está a la vista-->
+<!-- enctype lo que está adjuntando, aparte de texto está mantando algo, ACTION- DONDE, METHOD COMO, ENCTYPE TIPO DE DATO-->
+ <!--LABEL - FORM SIRVE PARA QUE SE RELACIONE-->
+  <!--PLACEHOLDER PARA QUE ESTÉ ADENTRO DE LA CAJITA-->
+ <!-- fieldset es una cajita como el div pero te trae una leyenda-->
+  <!---->
+ <!-- required es para que te aparezca el * como pregunta obligatoria-->
+   <!-- para escoger una opción es llamar name iguales a todas los inputs-->
+ <label for="nombre"> Nombre Completo:</label>
+ <input type="text" class="elemento1" name="nombre_completo" id="nombre">
+<br><br>
+
+<input type="text" placeholder="Nombre" class="elemento2" name="nombres">
+
+<input type="text" placeholder="Apellidos" class="elemento2" name="apellidos">
+<br>
+
+<button type="submit" class="btn_rojo">Enviar</button>
+<button type="reset" class="btn_dorado">Borrar</button>
+</form>
+
+<br><br>
+
+<fieldset>
+    <legend> Acceso a la Plataforma</legend>
+    <form action="" class="formulario2">
+    
+        <input type="text" name="usuario" placeholder="usuario" class="elemento2">
+    <br><br>
+        <input type="password" name="contrasena" placeholder="contraseña" class="elemento2">
+    <br><br>
+        <button type="submit" class="btn_rojo">Login</button>
+    </form>
+</fieldset>
+    <br><br>
+    <form action="" class="formulario3 ancho margen">
+        <input type="email" placeholder="*Email" name="email" class="elemento2" required>
+    <br><br>
+        <input type="number" pattern="" placeholder="edad" class="elemento2">
+    <br><br>
+        <input type="tel" maxlength="10"placeholder="Ejem: 9999093908" class="elemento2" pattern="[0-9]{10}">
+    <br><br>
+        <input type="checkbox" id="cursohtml"> <label  class="margen_izquierda" for="cursohtml">Curso de HTML Y CSS</label>
+    <br>
+        <input type="checkbox" id="cursomysql"> <label  class="margen_izquierda" for="cursomysql">Curso de MYSQL</label>
+    <br>
+        <input type="checkbox" id="cursophp"> <label  class="margen_izquierda" for="cursophp">Curso de PHP </label>
+    <br><br>
+        <input type="radio" value="M" name="horario"><label class="margen_izquierda" for=""">Matutino</label>
+        <br>
+        <input type="radio" value="V" name="horario"><label class="margen_izquierda" for=""">Vespertino</label>
+        <br>
+        <input type="radio" value="S" name="horario"><label class="margen_izquierda" for=""">Sabatino</label>
+        <br><br>
+        <button type="submit" class="btn_rojo">Enviar</button>
+    </form>
+
+</body>
+</html>

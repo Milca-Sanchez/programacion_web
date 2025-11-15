@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color:#333;
+}
+
+.ancho {
+    max-width: 1200px;
+    margin:auto;
+    /*border: 1px red solid; */
+}
+
+.margen {
+    padding: 15px;
+}
+
+.logotec { 
+  width: 200px;
+  margin-bottom: 0px;
+ 
+}
+
+.centrado {
+    text-align: center;
+}
+
+.titulotabla {
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+
+.tabla1 {
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border-spacing: 10px;
+    padding-top: 20px;
+    
+}
+
+.tabla1 td {
+    border: 1px rgb(225, 218, 222) solid;
+    text-align: center;
+    border-radius:12px;
+    padding: 10px 20px;
+}
+
+.tabla1 th {
+    background-color: #800000;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.cursos {
+    width:550px;
+}
+.horas {
+    width: 250px;
+}
+.horarios {
+    width: 400px; 
+}
+.fondogris {
+    background-color: #ccc;
+}
+
+.fondoamarillo {
+    background-color:#cc9900 ;
+    color:white;
+}
+
+.negrita {
+    font-weight: bold;
+    color: black;
+}
+
+.linktec {
+    font-weight: bold;
+    text-align: center;
+}
+
+.linktec a {
+     color:  #800000;
+}
