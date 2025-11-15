@@ -1,0 +1,318 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family:helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin:auto;
+  /*border: 2px red solid;*/
+  
+}
+
+.margen {
+  padding: 15px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.inicio {
+  width: 1200px;
+  background-color:#D5EFF0;
+  padding: 15px;
+}
+
+.logo {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+
+}
+
+.logo img {
+  width: 100px;
+
+}
+
+.datos {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  color:#147B7B;
+  font-weight: bold;
+  text-align: right;
+  font-size: 18px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color:#147B7B;
+  cursor:pointer;
+}
+
+a:first-child {
+  background-color:#147B7B; 
+  color:white;
+    padding: 15px 40px;
+}
+
+.imagen_velas {
+  width: 1200px;
+  background-image: url(imagenes/foto_slide.jpg);
+  height: 450px;
+  background-size:cover;
+}
+
+.imagen_velas h1 {
+    color:white;
+    text-align: center;
+    margin-top: 230px;
+    font-size: 40px;
+}
+
+.imagen_velas h2 {
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.imagen_velas a {
+  background-color: #147B7B; 
+  color:white;
+  padding: 12px 25px;
+  font-size: 11px;
+  margin: auto;
+  text-decoration: none;
+}
+.contenedor1 {
+width: 1200px;
+}
+
+.contenedor1 h1 {
+  color:#0D4B46;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.contenedor1 p {
+  color:#729D96;
+}
+
+.contenedor2 {
+  width: 1200px;
+  text-align: left;
+}
+
+.contenedor2 h1 {
+  color:#0D4B46;
+  font-size:30px;
+  line-height: 35px;
+  margin-top: 20px;
+}
+
+.contenedor2 p {
+  margin-top:10px;
+  color:#729D96;
+}
+
+.services {
+  width: 350px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 80px;
+}
+
+.services img {
+  width: 350px;
+}
+
+.paradise {
+  width: 350px;
+  display: inline-block;
+  vertical-align: top; 
+}
+
+.paradise img {
+  height: 500px;
+}
+
+.massage {
+  width: 350px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.massage img {
+ height: 350px;
+}
+
+.final {
+  width: 1200px;
+  background-color: #005550;
+}
+
+.care {
+  width: 330px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.care img {
+  width: 120px;
+}
+
+.texto {
+  width: 330px;
+  display: inline-block;
+  vertical-align: top;
+  color:white;
+  line-height: 40px;
+  margin-top: 20px;
+
+}
+
+.insta {
+  width: 330px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+.insta a {
+  text-decoration: none;
+  background-color: white;
+  color:#0c4b45;
+}
+
+.arroba {
+  color:#128d83;
+}
+
+/* SERVICIO */
+
+.we {
+  width: 1200px;
+  height: 200px;
+  font-size: 25px;
+  line-height: 50px;
+  padding: 60px 0;
+  background-color: #0D4B46;
+  color:white;
+}
+
+.easy {
+  width: 980px;
+  padding-top: 60px;
+  color: #0b5252;
+  text-align: left; 
+  text-align:justify;
+  padding-left: 150px;
+}
+
+.iff {
+  font-size: 16px;
+  margin-top: 20px;
+  color:#729D96;
+}
+
+.btn_book {
+  background-color: #147B7B; 
+  color:white;
+  padding: 18px 50px;
+  font-size: 11px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.become {
+   color:#729D96;
+   font-size: 14px;
+}
+/* CONTACTO */
+
+.request {
+  width: 1200px;
+  height: 200px;
+  font-size: 30px;
+  padding: 80px 0;
+  background-color: #0D4B46;
+  color:white;
+}
+
+.certific {
+  padding-top: 60px;
+  color: #0b5252; 
+}
+
+.gift{
+  font-size: 24px;
+  font-weight: 520;
+  margin-bottom: 10px;
+}
+.leave {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.formulario{
+  width: 900px;
+  padding: 40px;
+  background-color: #00544F;
+}
+
+.izquierda {
+  width: 350px;
+  display: inline-block;
+  vertical-align: top; 
+  margin-right: 20px;
+}
+
+.derecha {
+  width: 350px;
+  display: inline-block;
+  vertical-align: top; 
+  margin-right: 0;
+}
+
+.campos {
+  border: none;
+  padding: 15px 20px;
+  width: 350px;
+  margin-bottom: 30px;
+  margin-left: 12px;
+  background-color: #216965;
+    
+}
+.campos::placeholder {
+  color: white;
+  font-size:14px;
+}
+
+.btn {
+  background-color: #028A7E;
+  padding: 20px 20px;
+  color: white;
+  width: 725px;
+  border: none;
+  margin-left: 20px;
+  font-size:14px;
+  cursor: pointer;
+}
